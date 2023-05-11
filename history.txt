@@ -1,0 +1,140 @@
+[root@ip-172-31-19-152 apache-maven-3.6.3]# history
+    1  ll
+    2  mkdir satish
+    3  wget https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+    4   tar -zxvf 1  ll
+    5      2  wget https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+    6      3  ll
+    7      4  tar -zxvf apache-maven-3.6.3-bin.tar.gz
+    8      5  ll
+    9      6  cd apache-maven-3.6.3/
+   10      7  ll
+   11      8  yum install java-1.8.0-openjdk -y
+   12      9  java -version
+   13     10  yum install maven -y
+   14     11  mvn --version
+   15     12  mvn archetype:generate
+   16     13  ll
+   17     14  yum install tree
+   18     15  ll
+   19     16  cd swiggy/
+   20     17  ll
+   21     18  tree
+   22     19  vim pom.xml
+   23     20  tree
+   24     21  ll
+   25     22  mvn compile
+   26     23  ll
+   27     24  tree
+   28     25  mvn test
+   29     26  tree
+   30     27  mvn package
+   31     28  tree
+   32     29  pwd
+   33     30  mvn install
+   34     31  cd /root/.m2/repository/devops/swiggy/1.0-SNAPSHOT/
+   35     32  ll
+   36     33  cd -
+   37     34  ll
+   38     35  mvn deploy
+   39     36  ll
+   40     37  mvn clean
+   41     38  ll
+   42     39  mvn compile
+   43     40  ll
+   44     41  tree
+   45     42  mvn test
+   46     43  tree
+   47     44  mvn package
+   48     45  tree
+   49     46  mvn install
+   50     47  mvn clean
+   51     48  mvn clean package
+   52  mkdir satish
+   53  cd.. satish
+   54  cd satish/
+   55  wget https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+   56  tar -zxvf ‘apache-maven-3.6.3-bin.tar.gz’
+   57  ll
+   58  cd ‘apache-maven-3.6.3-bin.tar.gz’
+   59  cd apache-maven-3.6.3-bin.tar.gz
+   60  yum install java-1
+   61  yum install java-1.8.0-openjdk -y
+   62  java -version
+   63  yum install maven -y
+   64  maven --version
+   65  mvn --version
+   66  mvn archetype:generate
+   67  mkdir satish
+   68  cd satish
+   69  wget https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+   70  tar 
+   71  -
+   72  tar -zxvf ‘apache-maven-3.6.3-bin.tar.gz.1’
+   73  tar -zxvf apache-maven-3.6.3-bin.tar.gz.1
+   74  ll
+   75  cd apache-maven-3.6.3
+   76  ll
+   77  yum install java-1.8.0-openjdk -y
+   78  java --version
+   79  java -version
+   80  yum install maven -y
+   81  mvn -version
+   82  mvn archetype:generate
+   83  ll
+   84  yum install tree
+   85  ll
+   86  cd satish
+   87  cd swiggy
+   88  cd satish
+   89  tree
+   90  vim pom.xml
+   91  ll
+   92  mvn txt
+   93  mvn test
+   94  mvn archetype:generate 
+   95  ll
+   96  cd devopsengineer/
+   97  ll
+   98  mvn test
+   99  tree
+  100  mvn package
+  101  tree
+  102  mvn install
+  103  mvn clean
+  104   mvn clean package 
+  105  history
+  106  rm -rf
+  107  cd satish
+  108  cd..
+  109  cd -
+  110  cd --
+  111  mkdir satishjagana
+  112  wget https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+  113  tar ‘apache-maven-3.6.3-bin.tar.gz.1’
+  114  tar -zxvf ‘apache-maven-3.6.3-bin.tar.gz.1’
+  115  tar -zxvf apache-maven-3.6.3-bin.tar.gz.1
+  116  java -version
+  117  mvn -version
+  118  ll
+  119  cd apache-maven-3.6.3
+  120  mvn archetype:generate 
+  121  mvn archetype:generate
+  122  mvn test
+  123  tree -version
+  124  tree
+  125  mvn compile
+  126  tree
+  127  mvn package
+  128  tree
+  129  mvn package
+  130  mvn install
+  131  tree
+  132  mvn install
+  133  tree
+  134  rm -rf
+  135  rm -rf *
+  136  mkdir satish
+  137  rm -rf *
+  138  mvn archetype:generate
+  139  history
