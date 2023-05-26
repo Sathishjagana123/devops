@@ -1,0 +1,132 @@
+
+
+[root@main task1]# tree
+.
+└── satish.yml
+
+0 directories, 1 file
+[root@main task1]# cd
+[root@main ~]# cd
+[root@main ~]# tree
+.
+└── playbooks
+    └── roles
+        ├── role1
+        │   └── task1
+        │       └── satish.yml
+        ├── role2
+        │   └── task2
+        ├── role3
+        │   └── task3
+        ├── role4
+        │   └── task4
+        ├── role5
+        │   └── task5
+        └── role6
+            └── task6
+
+14 directories, 1 file
+[root@main ~]# history
+    1  amazon-linux-extras install ansible2 -y
+    2  ansible --version
+    3  passwd root
+    4  vim /etc/ssh/sshd_config
+    5  ro -rf *
+    6  rm -rf *
+    7  rm -rf*
+    8  rm -rf *
+    9  ansible -version
+   10  rm -rf *
+   11  cd
+   12  cd..
+   13  cd/
+   14  cd..
+   15  cd ..
+   16  cd~
+   17  cd ~
+   18  amazon-linux-extras install anbsible2 -y
+   19  amazon-linux-extras install ansible2 -y
+   20  yum install python python-pip python-level openssl -y
+   21  hostnamectl set-hostname main
+   22  sudo -i
+   23  vim /etc/ssh/sshd_config
+   24  systemctl restart sshd
+   25  systemctl status  sshd
+   26  useradd ansible
+   27  ansible passwd
+   28  rm -rf*
+   29  rm -rf *
+   30  ll
+   31  exit
+   32  vim /etc/ssh/sshd_config
+   33  visudo
+   34  vim /etc/ansible/hosts
+   35  vim /etc/ansible/ansible.cfg
+   36  ssh-keygen
+   37  ssh 172.31.33.145
+   38  ssh 172.31.46.54
+   39  ssh
+   40  ssh 172.31.36.134
+   41  ssh 172.31.32.99
+   42  cat id_rsa pub
+   43  cat id_rsa.pub
+   44  cat id_rsa pub
+   45  cd .ssh
+   46  cat id_rsa.pub
+   47  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCz8eI078h3Yt4kMdmq2owe41p26AfyOMHqcOf6CFokyxn1GWIUT5ePaA/Tf6sMys1FCYY0V8kQChi8+HL5uf0EfU2A4TvkIZ5Oz/c6hb2UJo/8lp+Oo43R6Z8S4P0GTbXt0hZca9a0eYPVNDQjd69/fdBksVxCsstTTxTBGsVOu0umPmA273T+BirDp/mjf8V3UddCujYXRz3LKoGh+w4kxFuOEAvK3PsNpaq5UT0QWxMCyqXx0ONdfD6anBW9fJs2/EvZvOyLGXPsFiiWcvTF9nPpTQR5E48zvvSeaqNjP2OCrd99O50vIMBE+zp3YYR6cpU2Wu9GpTeYJF2EIsOh root@maincd .ssh
+   48  nano authorized_keys
+   49  cd
+   50  ssh 172.31.32.99
+   51  cat known_hosts
+   52  cd .ssh
+   53  cd known_hosts
+   54  cd known hosts
+   55  cd known host
+   56  cd
+   57  ansible all -m ping
+   58  ssh root@172.31.33.145
+   59  history
+   60  ansible all -m ping
+   61  mkdir playbooks
+   62  vim master.yml
+   63  cd playbooks
+   64  ll
+   65  mkdir roles
+   66  mkdir roles/role1
+   67  mkdir roles/role2
+   68  mkdir roles/role3
+   69  mkdir roles/role4
+   70  mkdir roles/role5
+   71  mkdir roles/role6
+   72  cd
+   73  yum install tree -y
+   74  tree
+   75  cd role1
+   76  cd playbook
+   77  cd playbooks
+   78  tree
+   79  cd roles/role1/task
+   80  mkdir roles/role1/task1
+   81  tree
+   82  mkdir roles/role2/task2
+   83  mkdir roles/role23/task3
+   84  mkdir roles/role3/task3
+   85  mkdir roles/role4/task4
+   86  mkdir roles/role5/task5
+   87  mkdir roles/role6/task6
+   88  tree
+   89  cd task
+   90  cd task1
+   91  cd role1
+   92  cd roles
+   93  cd role1
+   94  cd task1
+   95  vim satish.yml
+   96  ansible-playbook satish.yml
+   97  vim satish.yml
+   98  ansible-playbook satish.yml
+   99  tree
+  100  cd
+  101  tree
+  102  history
+[root@main ~]#
